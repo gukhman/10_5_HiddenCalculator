@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorActivity">
+
+    <EditText
+        android:id="@+id/editTextNumber1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:hint="@string/editTextNumber1Hint"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/editTextNumber1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:hint="@string/editTextNumber2Hint"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber2"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/buttonAddText" />
+
+    <Button
+        android:id="@+id/buttonSub"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextNumber2"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonAdd"
+        android:text="@string/buttonSubText" />
+
+    <Button
+        android:id="@+id/buttonMult"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonAdd"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/buttonMultText" />
+
+    <Button
+        android:id="@+id/buttonDiv"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonSub"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@id/buttonAdd"
+        android:text="@string/buttonDivText" />
+
+    <Button
+        android:id="@+id/buttonSendResult"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonDiv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/buttonSendResultText" />
+</RelativeLayout>

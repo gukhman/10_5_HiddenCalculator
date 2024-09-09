@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hidden calculator</string>
+    <string name="buttonCalculatorText">Калькулятор</string>
+    <string name="textViewResultHint">Результат</string>
+    <string name="editTextNumber1Hint">Число 1</string>
+    <string name="editTextNumber2Hint">Число 2</string>
+    <string name="buttonAddText">Сложить</string>
+    <string name="buttonSubText">Вычесть</string>
+    <string name="buttonMultText">Умножить</string>
+    <string name="buttonDivText">Разделить</string>
+    <string name="buttonSendResultText">Передать данные</string>
+</resources>
